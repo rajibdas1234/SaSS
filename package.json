@@ -1,0 +1,14 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "one Demo page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass" : "node-sass css/sass1/main.scss css/style.css -w"
+  },
+  "author": "rajib",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
